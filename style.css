@@ -1,0 +1,22 @@
+*{padding: 0;margin: 0;}
+.mobile-body {
+    width: 375px;
+    height: 667px;
+    display: inline-block;
+    border: 6px solid #333;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px rgba(33, 33, 33, .3);
+    margin: 50px auto;
+    display: block;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.no_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.no_scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
