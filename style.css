@@ -1,4 +1,7 @@
 *{padding: 0;margin: 0;}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+}
 .mobile-body {
     width: 375px;
     height: 667px;
@@ -10,8 +13,18 @@
     display: block;
     overflow-y: scroll;
     position: relative;
+    background-color: #F4F8FB;
 }
-
+a.book,a.chapter{
+    text-decoration: none;
+    color: #000;
+}
+footer a{
+    text-decoration: none;
+}
+footer a.active{
+    color: green;
+}
 .no_scroll::-webkit-scrollbar {
     display: none;
 }
@@ -19,4 +32,52 @@
 .no_scroll {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+.book h5{
+    font-size: 17px;
+}
+.book p{
+    font-size: 14px;
+}
+.book img{
+    margin-bottom: 7px;
+}
+.book.card,.chapter{
+    box-shadow: 2px 4px 4px rgba(33, 33, 33, .3);
+    margin-bottom: 10px;
+}
+.chapter{
+    background-color: rgb(236 169 247 / 16%);
+}
+
+.card{
+    border: none;
+}
+
+
+
+
+
+
+
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 1000;
+
+}
+footer p{
+    font-size: 12px;
+}
+.h-100{
+    min-height: 100%;
+    height: auto !important;
+}
+.chapter .material-symbols-outlined{
+    font-size: 65px;
+}
+.w-50{
+    width: 48% !important;
 }
