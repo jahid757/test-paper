@@ -53,7 +53,7 @@ footer a.active{
     margin-bottom: 10px;
 }
 .chapter{
-    background-color: rgb(236 169 247 / 16%);
+    background-color:rgb(255 132 0 / 16%);
 }
 .pointer-event{
     cursor: pointer;
@@ -173,14 +173,34 @@ footer p{
 }
 .chapter .material-symbols-outlined{
     font-size: 65px;
+    
+}
+.star{
+    font-size: 22px !important;
 }
 .w-50{
     width: 48% !important;
 }
-/* .card-design-3 .card{
-    width: 32%;
-} */
-
+.card-design-3 .card{
+    width: 45%;
+    
+}
+.card-design-3 .card img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px; 
+}
+.chapter-wrap .chapter:nth-child(odd) .material-symbols-outlined{
+    color: #2cb1ff;
+}
+.chapter-wrap  .material-symbols-outlined{
+    color: #f39e43;
+    
+}
+.chapter-wrap .chapter:nth-child(odd){
+    background-color: #c0f3ff;
+}
 @media (max-width: 667px) {
     .mobile-body {
         width: 100%;
