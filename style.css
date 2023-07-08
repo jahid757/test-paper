@@ -1,3 +1,6 @@
+:root{
+    --main-color:#f7961d;
+}
 *{padding: 0;margin: 0;}
 h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 0;
@@ -134,7 +137,26 @@ span.select2.select2-container.select2-container--default.select2-container--foc
     text-align: center;
     text-transform: capitalize;
 }
-
+#genderValue {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: absolute;
+    z-index: -1;
+}
+.gender a.primary_btn {
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    cursor: pointer;
+}
+.gender a.primary_btn.active {
+    background-color: var(--main-color);
+    color: #fff;
+}
 footer{
     position: sticky;
     bottom: 0;
