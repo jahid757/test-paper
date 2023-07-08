@@ -177,3 +177,25 @@ footer p{
 .w-50{
     width: 48% !important;
 }
+
+@media (max-width: 667px) {
+    .mobile_body {
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        margin-top: 0;
+        height: 100vh;
+        margin-bottom: 0;
+    }
+
+    .bottom_nav {
+        position: fixed;
+        width: 100%
+    }
+
+    .h-100 {
+        margin-bottom: 75px;
+    }
+
+}
