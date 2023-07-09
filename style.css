@@ -287,6 +287,22 @@ footer p{
     font-size: 0.5em;
     text-anchor: middle;
   }
+  .w-30{
+    width:30%
+}
+.profile_details h4{
+    font-size: 18px;
+}
+.profile_details p{
+    font-size: 14px;
+}
+.card .border-bottom:last-child{
+    border-bottom: none !important;
+}
+.card .toggler h4{
+    font-size: 20px;
+    font-weight: 600;
+}
 @media (max-width: 667px) {
     .mobile-body {
         width: 100%;
