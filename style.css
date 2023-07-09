@@ -201,6 +201,12 @@ footer p{
 .chapter-wrap .chapter:nth-child(odd){
     background-color: #c0f3ff;
 }
+.action {
+    position: sticky;
+    bottom: 80px;
+    right: 5px;
+    align-items: end;
+}
 @media (max-width: 667px) {
     .mobile-body {
         width: 100%;
