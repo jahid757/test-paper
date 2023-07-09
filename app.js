@@ -2,8 +2,10 @@
     // $("header_click").click(function(){
     //   $("slide_content").slideToggle();
     // });
-  function toggleFaq(content){
+  function toggleFaq(content,arrow,heading){
     $(`#${content}`).slideToggle();
+    $(`#${arrow}`).toggleClass('active');
+    $(`#${heading}`).toggleClass('active');
   }
 
 //   });
