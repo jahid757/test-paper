@@ -250,7 +250,7 @@ footer p{
         margin-bottom: 0;
     }
 
-    .bottom_nav {
+    footer {
         position: fixed;
         width: 100%
     }
@@ -258,5 +258,10 @@ footer p{
     .h-100 {
         margin-bottom: 75px;
     }
-
+    .action {
+        position: fixed;
+        bottom: 80px;
+        right: 7px;
+        align-items: end;
+    }
 }
