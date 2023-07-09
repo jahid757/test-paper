@@ -213,20 +213,25 @@ footer p{
     padding: 5px;
     cursor: pointer;
 }
-.options div{
+.options> div{
     padding: 10px;
 }
 .options .correct-ans{
-    background-color: #dfffdf;
+    background-color: #edffed;
     border-radius: 5px;
+    color: #00cd00;
 }
-.options .correct-ans{
-    color: green;
-}
-.options .correct-ans{
-    background-color: #dfffdf;
+
+.options .wrong-ans{
+    background-color: #ffeded;
     border-radius: 5px;
+    color: #cd0013;
 }
+.options .wrong-ans input:disabled{
+    color: rgb(255, 40, 40) !important;
+    border-color: red;
+}
+
 @media (max-width: 667px) {
     .mobile-body {
         width: 100%;
