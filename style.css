@@ -239,6 +239,10 @@ footer p{
     color: #fff;
     cursor: pointer;
 }
+.book-2 img{
+    width: 50px !important;
+    margin-bottom: 0 !important;
+}
 @media (max-width: 667px) {
     .mobile-body {
         width: 100%;
