@@ -305,7 +305,7 @@ footer p{
 }
 .faq{
     border: 1px solid #ffc107 ; 
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 @media (max-width: 667px) {
     .mobile-body {
