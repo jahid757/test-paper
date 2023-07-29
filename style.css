@@ -303,6 +303,10 @@ footer p{
     font-size: 20px;
     font-weight: 600;
 }
+.faq{
+    border: 1px solid #ffc107 ; 
+    margin-bottom: 10px;
+}
 @media (max-width: 667px) {
     .mobile-body {
         width: 100%;
