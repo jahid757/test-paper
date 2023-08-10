@@ -307,6 +307,9 @@ footer p{
     border: 1px solid #ffc107 ; 
     /* margin-bottom: 10px; */
 }
+.alert-modal{
+    max-width: 300px !important;
+}
 @media (max-width: 667px) {
     .mobile-body {
         width: 100%;
