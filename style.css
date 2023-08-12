@@ -309,6 +309,7 @@ footer p{
 }
 .alert-modal{
     max-width: 300px !important;
+    margin: 0 auto;
 }
 @media (max-width: 667px) {
     .mobile-body {
